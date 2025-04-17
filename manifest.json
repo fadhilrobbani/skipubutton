@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Enable Next Step Button",
+  "version": "1.0",
+  "description": "Removes 'disabled' from the next step button when you click the extension icon.",
+  "permissions": ["scripting", "activeTab"],
+  "action": {
+    "default_icon": "icon16.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
